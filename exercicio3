@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Seletores Filho Direto</title>
+  <style>
+    .menu > * {
+      color: red;
+    }
+
+    .menu > ul > li {
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+  <div class="menu">
+    <ul>
+      <li>Item do menu 1</li>
+      <li>Item do menu 2</li>
+      <li>Item do menu 3</li>
+    </ul>
+    <p>Este é um parágrafo dentro do menu.</p>
+  </div>
+</body>
+</html>

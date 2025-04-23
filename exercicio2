@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Seletor Descendente</title>
+  <style>
+    .container * {
+      color: blue;
+    }
+
+    .container .section2 li {
+      background-color: green;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="section1">
+      <p>Parágrafo 1 da seção 1.</p>
+      <p>Parágrafo 2 da seção 1.</p>
+      <p>Parágrafo 3 da seção 1.</p>
+    </section>
+
+    <section class="section2">
+      <ul>
+        <li>Item 1 da lista</li>
+        <li>Item 2 da lista</li>
+        <li>Item 3 da lista</li>
